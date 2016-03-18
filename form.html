@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Техномарт</title>
+    <link href='https://fonts.googleapis.com/css?family=Cuprum:400,700,400italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.min.css">
+  </head>
+  <body>
+    <header class="main-header">
+        <div class="top-block">
+          <div class="container clearfix">
+            <a class="index-logo" href="index.html">
+              Техномарт
+            </a>
+            <form class="search-form" action="https://echo.htmlacademy.ru" method="get">
+              <input type="search" name="search-request" id="search-field" placeholder="Поиск:">
+              <span class="icon-search"></span>
+            </form>
+            <div class="bookmarks">
+              <a href="#"><span class="icon-bookmark"></span>Закладки: 0</a>
+            </div>
+            <div class="cart">
+              <a href="#"><span class="icon-basket"></span>Корзина: 0</a>
+            </div>
+            <div class="order">
+              <a href="#">Оформить заказ</a>
+            </div>
+          </div>
+        </div>
+      <div class="container">
+        <div class="second-block clearfix">
+          <div class="header-description">
+            Интернет-магазин<br>
+            строительных материалов<br>
+            и инструментов для ремонта
+          </div>
+          <div class="header-contacts">
+            <div class="phone">
+              <span class="icon-phone"></span>
+              <a href="tel:+78125550555">+7 (812) 555-05-55</a>
+            </div>
+            <div class="address">
+              г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
+            </div>
+          </div>
+          <div class="user-block">
+            <a class="login" href="#">
+              <span class="icon-login"></span>
+              Войти
+            </a>
+            <a class="login" href="#">Регистрация</a>
+          </div>
+        </div>
+        <nav class="main-navigation">
+          <ul>
+            <li>
+              <a href="#">Главная</a>
+            </li>
+            <li>
+              <a href="#">Компания</a>
+            </li>
+            <li>
+              <a href="catalog.html">Каталог</a>
+            </li>
+            <li>
+              <a href="#">Новости</a>
+            </li>
+            <li>
+              <a href="#">Спецпредложения</a>
+            </li>
+            <li>
+              <a href="#">Доставка</a>
+            </li>
+            <li>
+              <a href="#">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="container">
+      <div class="write-us">
+        <form action="https://echo.htmlacademy.ru" method="post">
+          <div class="modal-write-us-form">
+            <label>
+              Ваше имя:
+              <input type="text" name="user-name" placeholder="Представьтесь, пожалуйста" required>
+            </label>
+            <label>
+              Ваше e-mail:
+              <input type="text" name="e-mail" placeholder="Для отправки ответа" required>
+            </label>
+            <label for="text-field">Текст письма:</label>
+            <textarea name="text" rows="5" id="text-field" placeholder="В свободной форме" required></textarea>
+          </div>
+          <div class="write-us-button">
+            <button class="btn btn-red" type="submit">Отправить</button>
+          </div>
+        </form>
+      </div>
+    </main>
+    <footer class="main-footer">
+      <div class="footer-navigation">
+        <div class="container">
+          <section class="footer-navigation-top clearfix">
+            <a class="index-logo footer-logo" href="index.html">
+              Техномарт
+            </a>
+            <nav class="main-navigation footer-main-nav">
+              <ul>
+                <li>
+                  <a href="#">Компания</a>
+                </li>
+                <li>
+                  <a href="#">Новости</a>
+                </li>
+                <li>
+                  <a href="catalog.html">Каталог</a>
+                </li>
+                <li>
+                  <a href="#">Доставка</a>
+                </li>
+                <li>
+                  <a href="#">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+          </section>
+          <section class="footer-navigation-bottom clearfix">
+            <div class="footer-contacts">
+              г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
+              +7 (812) 555-05-55
+            </div>
+            <nav class="main-navigation footer-second-nav">
+              <ul>
+                <li>
+                  <a href="#">Материалы</a>
+                </li>
+                <li>
+                  <a href="#">Техника</a>
+                </li>
+                <li>
+                  <a href="#">Инструмент</a>
+                </li>
+                <li>
+                  <a href="#">Спецпредложения</a>
+                </li>
+              </ul>
+            </nav>
+          </section>
+        </div>
+      </div>
+      <div class="footer-links">
+        <div class="container clearfix">
+          <section class="footer-copyright">
+            &copy; 2010–2016 Компания «Техномарт»
+            Все права защищены
+          </section>
+          <section class="footer-social">
+            <ul class="social-list">
+              <li class="social-item">
+                <a class="social-link" href="#"><span class="icon-vk"></span></a>
+              </li>
+              <li class="social-item">
+                <a class="social-link" href="#"><span class="icon-facebook"></span></a>
+              </li>
+              <li class="social-item">
+                <a class="social-link" href="#"><span class="icon-instagram"></span></a>
+              </li>
+            </ul>
+          </section>
+          <section class="footer-email clearfix">
+            <div class="internet-contact email">
+              <p>Обратная связь:</p>
+              <a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
+            </div>
+            <div class="internet-contact site">
+              <p>Разработано —</p>
+              <a href="https://htmlacademy.ru">htmlacademy.ru</a>
+            </div>
+          </section>
+        </div>
+      </div>
+    </footer>
+    <div class="modal-cart">
+      <button class="modal-close" type="button" title="Закрыть">Закрыть</button>
+      <div class="modal-cart-message">
+        <span class="modal-cart-circle"></span>
+        <p>Товар добавлен в корзину!</p>
+      </div>
+      <div class="modal-cart-buttons">
+        <a class="btn btn-red" href="#">Оформить заказ</a>
+        <a class="btn btn-red continue" href="#">Продолжить покупки</a>
+      </div>
+    </div>
+    <div class="modal-write-us">
+      <button class="modal-close" type="button" title="Закрыть">Закрыть</button>
+      <form action="https://echo.htmlacademy.ru" method="post">
+        <div class="modal-write-us-form">
+          <label>
+            Ваше имя:
+            <input type="text" name="user-name" placeholder="Представьтесь, пожалуйста">
+          </label>
+          <label>
+            Ваше e-mail:
+            <input type="text" name="e-mail" placeholder="Для отправки ответа">
+          </label>
+          <label for="text-field">Текст письма:</label>
+          <textarea name="text" rows="5" id="text-field" placeholder="В свободной форме"></textarea>
+        </div>
+        <div class="modal-write-us-button">
+          <button class="btn btn-red" type="submit">Отправить</button>
+        </div>
+      </form>
+    </div>
+    <div class="modal-map">
+      <button class="modal-close" type="button" title="Закрыть">Закрыть</button>
+      <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.5989424123713!2d30.32089461574152!3d59.93879686904836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywg0KDQvtGB0YHQuNGPLCAxOTExODY!5e0!3m2!1sru!2s!4v1455319080157" width="940" height="565" style="border:0" allowfullscreen></iframe>
+      </div>
+    </div>
+  </body>
+</html>
